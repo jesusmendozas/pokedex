@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "predeploy": "ng build --configuration production --base-href=/pokedex-angular/",
     "deploy": "gh-pages -d dist/pokedex-angular",
-    "prepare": "husky install"
+    "prepare": "cd ../../../.. && husky install sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/.husky"
   },
   "private": true,
   "dependencies": {
