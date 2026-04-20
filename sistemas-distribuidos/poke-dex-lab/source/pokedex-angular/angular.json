@@ -18,6 +18,13 @@
       "prefix": "app",
       "architect": {
         "build": {
+          "options": {
+            "security": {
+              "autoCsp": {
+                "unsafeEval": false
+              }
+            }
+          },
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "outputPath": "dist/pokedex-angular",
